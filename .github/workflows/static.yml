@@ -67,7 +67,7 @@ jobs:
     # Used to specify the path to a dependency file: package-lock.json, yarn.lock, etc. Supports wildcards or a list of file names for caching multiple dependencies.
     cache-dependency-path: # optional
           
-            - name: Setup FFmpeg
+     - name: Setup FFmpeg
   # You may pin to the exact commit or the version.
   # uses: federicocarboni/setup-ffmpeg@37062fbf7149fc5578d6c57e08aed62458b375d6
   uses: federicocarboni/setup-ffmpeg@v3.1
